@@ -41,7 +41,8 @@ class GUI(QMainWindow):
         
         # Add the display to the general layout
         self.generalLayout.addWidget(self.display)
-    
+
+    # Creating buttons function
     def _createButtons(self):
         """Create the buttons."""
         self.buttons = {}
