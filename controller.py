@@ -19,7 +19,7 @@ class Controller:
         if self._view.getDisplayText() == ERROR_MSG:
             self._view.clearDisplay()
 
-        expression = self._view.getDisplayText() + sub_exp
+        expression = self._view.getDisplayText() + sub_exp  
         self._view.setDisplayText(expression)
     def _connectSignals(self):
         """Connect signals and slots."""
